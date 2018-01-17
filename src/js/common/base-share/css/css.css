@@ -1,0 +1,187 @@
+
+.share_box {
+    display: table;
+    width: 100%;
+  margin-top: 0.667rem;
+}
+.share_box div {
+    display: table-cell;
+  width: 25%;
+  text-align: center;
+  color: #666;
+}
+.share_box div a {
+  display: block;
+  font-size: 13px;
+}
+.share_box div img {
+  width: 1.147rem;
+  height: 1.147rem;
+}
+.share_box div p {
+  margin-top: .267rem;
+  margin-bottom: .667rem;
+}
+
+.zsh_shareLayer {
+  width: 100%;
+  height: 4.36rem;
+  background: #fff;
+  position: fixed;
+  left: 0;
+  bottom: -100%;
+  z-index: 999;
+}
+.zsh_shareLayer ul {
+  padding-top: .64rem;
+}
+.zsh_shareLayer li {
+  float: left;
+  width: 20%;
+  height: 1.72rem;
+  text-align: center;
+}
+.zsh_shareLayer li .zsh_wx,
+.zsh_shareLayer li .zsh_pyq,
+.zsh_shareLayer li .zsh_qq,
+.zsh_shareLayer li .zsh_wb,
+.zsh_shareLayer li .zsh_kj {
+  display: block;
+  margin: 0 auto .147rem auto;
+  width: 1.173rem;
+  height: 1.173rem;
+}
+.zsh_shareLayer li .zsh_wx {
+  background: url(../img/wx.png) no-repeat;
+  background-size: contain;
+}
+.zsh_shareLayer li .zsh_wx:active {
+  background: url(../img/wx_press.png) no-repeat;
+  background-size: contain;
+}
+.zsh_shareLayer li .zsh_pyq {
+  background: url(../img/pyq.png) no-repeat;
+  background-size: contain;
+}
+.zsh_shareLayer li .zsh_pyq:active {
+  background: url(../img/pyq_press.png) no-repeat;
+  background-size: contain;
+}
+.zsh_shareLayer li .zsh_qq {
+  background: url(../img/qq.png) no-repeat;
+  background-size: contain;
+}
+.zsh_shareLayer li .zsh_qq:active {
+  background: url(../img/qq_press.png) no-repeat;
+  background-size: contain;
+}
+.zsh_shareLayer li .zsh_wb {
+  background: url(../img/wb.png) no-repeat;
+  background-size: contain;
+}
+.zsh_shareLayer li .zsh_wb:active {
+  background: url(../img/wb_press.png) no-repeat;
+  background-size: contain;
+}
+.zsh_shareLayer li .zsh_kj {
+  background: url(../img/kj.png) no-repeat;
+  background-size: contain;
+}
+.zsh_shareLayer li .zsh_kj:active {
+  background: url(../img/kj_press.png) no-repeat;
+  background-size: contain;
+}
+.zsh_shareLayer li span {
+  font-size: 11px;
+}
+.zsh_shareLayer .zsh_cancel {
+  margin: 0 4%;
+  width: 92%;
+  height: .96rem;
+  text-align: center;
+  line-height: .96rem;
+  background: #edf7ff;
+  font-size: 13px;
+  color: #52adfe;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+}
+.zsh_sf_mask {
+  display: none;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  filter: alpha(opacity=60);
+  opacity: .6;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10000;
+}
+.wx_share_tip {
+  display: none;
+  width: 92%;
+  height: 4.933rem;
+  background: #fff;
+  border-radius: 8px;
+  position: fixed;
+  bottom: 3.947rem;
+  left: 4%;
+  z-index: 99999;
+}
+.wx_share_tip .zsh_sf_arrowDown {
+  width: 0px;
+  height: 0px;
+  border-left: .213rem solid transparent;
+  border-right: .213rem solid transparent;
+  border-top: .213rem solid #fff;
+  position: absolute;
+  bottom: -0.173rem;
+  left: .613rem;
+}
+.wx_share_tip .zsh_sf_wx {
+  display: inline-block;
+  width: 1.173rem;
+  height: 1.173rem;
+  background: url(../img/wx.png);
+  background-size: contain;
+  position: absolute;
+  left: 0.02rem;
+  bottom: -1.393rem;
+}
+.wx_share_tip p {
+  margin: .3rem 0 0 .627rem;
+  font-size: 13px;
+}
+.wx_share_tip .share_img1 {
+  display: inline-block;
+  width: 0.44rem;
+  height: 0.613rem;
+}
+.wx_share_tip .share_img2 {
+  display: inline-block;
+  width: 0.587rem;
+  height: 0.587rem;
+}
+.wx_share_tip .share_img3 {
+  display: inline-block;
+  width: 1.0rem;
+  height: 0.6rem;
+}
+.wx_share_tip .share_img4 {
+  display: inline-block;
+  width: 0.587rem;
+  height: 0.587rem;
+}
+.wx_share_tip .share_img5 {
+  display: inline-block;
+  width: 0.6rem;
+  height: 0.587rem;
+}
+.wx_fixed_tip {
+  display: block;
+  bottom: -100%;
+  left: 4%;
+}
+

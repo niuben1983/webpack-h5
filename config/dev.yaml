@@ -1,0 +1,6 @@
+PATH:
+    dev
+PUBLICPATH:
+    /
+API:
+    '192.168.168.1'    

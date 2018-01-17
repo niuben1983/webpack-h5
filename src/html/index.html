@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>gulp+webpack</title>
+    <meta name="applicable-device" content="mobile">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="yes" name="apple-touch-fullscreen">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <script src="<%=htmlWebpackPlugin.options.files.lib %>flexible.js"></script>
+    <script src="<%=htmlWebpackPlugin.options.files.lib %>flexible_css.js"></script>
+    
+</head>
+
+<body>
+
+    <button class="js_share">分享</button> <br><br><br><br>
+    <button class="js_change">修改分享文案</button>
+
+  
+
+    <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+    <script src="<%=htmlWebpackPlugin.options.files.lib %>jquery-3.1.1.min.js"></script>
+
+    <!-- webpack的HtmlWebpackPlugin插件会根据入口JS文件生成script标签并插入在这里或实现按需加载 -->
+</body>
+
+</html>

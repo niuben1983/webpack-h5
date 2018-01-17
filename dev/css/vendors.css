@@ -1,0 +1,13 @@
+body {
+  /* background: #f0f; */
+}html,
+body {
+  height: 100%;
+}
+
+.index {
+  border-radius: 0.133333rem;
+  height: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
